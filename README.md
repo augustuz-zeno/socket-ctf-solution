@@ -61,7 +61,7 @@
 
 🔽 Клонирование
 ```shell
-git clone https://github.com/your-repo/socket-ctf-solutions.git
+git clone https://github.com/augustuz-zeno/socket-ctf-solution.git
 cd socket-ctf-solutions
 ```
 ▶️ Запуск сервера
