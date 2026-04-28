@@ -24,6 +24,7 @@
 
 Вместо дублирования логики для каждого порта используется единый движок обработки соединений.
 
+---
 ### 🔑 Ключевые компоненты
 
 
@@ -57,28 +58,29 @@
 | `9008` | ➗ Math    | 5 раундов (интерактив)      |
 
 
+---
 ### 📦 Установка и запуск
 
-🔽 Клонирование
+Клонирование
 ```shell
 git clone https://github.com/augustuz-zeno/socket-ctf-solution.git
 cd socket-ctf-solutions
 ```
-▶️ Запуск сервера
+Запуск сервера
 ```shell
 python ctf_socket_server.py
 ```
-⚡ Запуск всех решений
+Запуск всех решений
 ```shell
 python all_challenge_solver.py
 ```
-🎯 Запуск отдельного челленджа
+Запуск отдельного челленджа
 ```shell
 python challenge_solver_N.py
 ```
 Где N — номер челленджа (например: challenge_solver_3.py)
 
-📁 Структура проекта
-├── all_challenge_solver.py   # Запуск всех задач
-├── challenge_solver_*.py     # Отдельные решения
-├── ctf_socket_server.py      # Cервер
+### 📁 Структура проекта
+    ├── all_challenge_solver.py   # Запуск всех задач
+    ├── challenge_solver_*.py     # Отдельные решения
+    ├── ctf_socket_server.py      # Cервер
